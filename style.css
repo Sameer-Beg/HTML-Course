@@ -5,3 +5,24 @@ body{
 td{
     border: 2px solid black;
 }
+
+P{
+    background-color: aqua;
+    color: black;
+}
+a{
+    background-color: yellow;
+}
+.container{
+    background-color: green;
+}
+span{
+    background-color: gray;
+}
+
+#red{
+    background-color: saddlebrown;
+}
+.yellow{
+    background-color: yellowgreen;
+}

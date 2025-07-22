@@ -1,59 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title tage is very imp . search engines are usedd used title tags for sreaching any website -->
-    <title>HTMl Course</title> 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>sameer is a good developer </h1>
+    <title>HTMl Course</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>sameer is a good developer</h1>
     <h2>sameer is a good developer</h2>
     <h3>sameer is a good developer</h3>
     <h4>sameer is a good developer</h4>
     <h5>sameer is a good developer</h5>
     <h6>sameer is a good developer</h6>
-    <p style="background-color: rgb(126, 126, 253);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum iusto sed laboriosam eligendi expedita rem delectus. Iusto sequi laudantium ea ut veritatis sit voluptas aperiam numquam! Dolores earum laudantium id explicabo.</p>
+    <p style="background-color: rgb(126, 126, 253)">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+      rerum iusto sed laboriosam eligendi expedita rem delectus. Iusto sequi
+      laudantium ea ut veritatis sit voluptas aperiam numquam! Dolores earum
+      laudantium id explicabo.
+    </p>
 
     <!-- we r create  a bookmarks of two website -->
-     <h1>Primary Bookmarks</h1>
-     <a target="_blank" href="http://www.google.com">Google.com</a>
-     <h2>Secondry Booknarks</h2>
-     <a target="_blank" href="http://www.facebook.com"> FaceBook.com </a><br>
+    <h1>Primary Bookmarks</h1>
+    <a target="_blank" href="http://www.google.com">Google.com</a>
+    <h2>Secondry Booknarks</h2>
+    <a target="_blank" href="http://www.facebook.com"> FaceBook.com </a><br />
 
+    <!-- image  -->
+    <img
+      height="300"
+      src="roberto-nickson-zu95jkyrGtw-unsplash.jpg"
+      alt="img is not found"
+    /><br />
 
-     <!-- image  -->
-      <img height="300" src="roberto-nickson-zu95jkyrGtw-unsplash.jpg" alt="img is not found"><br>
-
-      <!-- table tag  -->
-      <caption>Sameer details</caption>
-      <table >
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Sameer</td>
-            <td>20</td>
-        </tr>
-          <tr>
-            <td colspan="2">TAnveerr</td>
-            <td>30</td>
-        </tr>
-       </table>
+    <!-- table tag  -->
+    <caption>
+      Sameer details
+    </caption>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Sameer</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td colspan="2">TAnveerr</td>
+        <td>30</td>
+      </tr>
+    </table>
 
     <!-- list in html  -->
-     <ol>
-        <li>Sameer beg</li>
-        <li>Sameer beg</li>
-     </ol>
-     <ul >
-        <li>Tanveer beg</li>
-        <li>Tanveer beg</li>
-     </ul>
+    <ol>
+      <li>Sameer beg</li>
+      <li>Sameer beg</li>
+    </ol>
+    <ul>
+      <li>Tanveer beg</li>
+      <li>Tanveer beg</li>
+    </ul>
 
+    <!-- form  -->
+    <form action="post">
+      <div>
+        <label for="username">Enter your name here </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your name "
+        />
+      </div>
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female" />
+      </div>
+      <div>
+        <textarea name="comment" rows="4" cols="50">
+      Enter your comment here...
+</textarea
+        >
+      </div>
+      <div>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+    </form>
+
+    <!-- Inline and Bloack Element  -->
+     <!-- inline tags  -->
+     <p>sameer is a good developer</p>
+     <a href="https://www.google.com">Google website</a>
+    <div class="container">i am a black element </div>
+    <span>I am a inline element </span>
+
+    <!-- quize create a form and asking name and city and pincode . But without using br tag  -->
+     <form action="">
+        <div>
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter  your name" >
+        </div>
+        <div>
+            <label for="">Cityname</label>
+            <input type="text" id="Cityname" placeholder="Enter city name" name="Cityname">
+        </div>
+     </form>
+
+     <!-- id and class  -->
+      <div id="red">First Id</div>
+      <div class="yellow">First class </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
