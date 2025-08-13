@@ -1,1 +1,1 @@
-alert("Wellcome to the sameer full stack developer course ")
+// alert("Wellcome to the sameer full stack developer course ")
